@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "mainViewController.viewDidLoad() -&gt; ():mainViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "itemTimesNames">
+            </PersistentString>
+            <PersistentString
+               value = "dayItems">
+            </PersistentString>
+            <PersistentString
+               value = "itemCountInSection">
+            </PersistentString>
+            <PersistentString
+               value = "hourItems">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "mainViewController.collectionView(UICollectionView, cellForItemAtIndexPath : NSIndexPath) -&gt; UICollectionViewCell:mainViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

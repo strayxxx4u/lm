@@ -1,0 +1,927 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC4C058A1C3F876C009D4BF4 /* mainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4C05891C3F876C009D4BF4 /* mainViewController.swift */; };
+		CC4C05A51C3F95C0009D4BF4 /* 00.png in Resources */ = {isa = PBXBuildFile; fileRef = CC4C05911C3F95C0009D4BF4 /* 00.png */; };
+		CC4C05A61C3F95C0009D4BF4 /* 01.png in Resources */ = {isa = PBXBuildFile; fileRef = CC4C05921C3F95C0009D4BF4 /* 01.png */; };
+		CC4C05A71C3F95C0009D4BF4 /* 02.png in Resources */ = {isa = PBXBuildFile; fileRef = CC4C05931C3F95C0009D4BF4 /* 02.png */; };
+		CC4C05A81C3F95C0009D4BF4 /* 03.png in Resources */ = {isa = PBXBuildFile; fileRef = CC4C05941C3F95C0009D4BF4 /* 03.png */; };
+		CC4C05A91C3F95C0009D4BF4 /* 04.png in Resources */ = {isa = PBXBuildFile; fileRef = CC4C05951C3F95C0009D4BF4 /* 04.png */; };
+		CC4C05AA1C3F95C0009D4BF4 /* 05.png in Resources */ = {isa = PBXBuildFile; fileRef = CC4C05961C3F95C0009D4BF4 /* 05.png */; };
+		CC4C05AB1C3F95C0009D4BF4 /* 06.png in Resources */ = {isa = PBXBuildFile; fileRef = CC4C05971C3F95C0009D4BF4 /* 06.png */; };
+		CC4C05AC1C3F95C0009D4BF4 /* 07.png in Resources */ = {isa = PBXBuildFile; fileRef = CC4C05981C3F95C0009D4BF4 /* 07.png */; };
+		CC4C05AD1C3F95C0009D4BF4 /* 08.png in Resources */ = {isa = PBXBuildFile; fileRef = CC4C05991C3F95C0009D4BF4 /* 08.png */; };
+		CC4C05AE1C3F95C0009D4BF4 /* 09.png in Resources */ = {isa = PBXBuildFile; fileRef = CC4C059A1C3F95C0009D4BF4 /* 09.png */; };
+		CC4C05AF1C3F95C0009D4BF4 /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = CC4C059B1C3F95C0009D4BF4 /* 10.png */; };
+		CC4C05B01C3F95C0009D4BF4 /* 11.png in Resources */ = {isa = PBXBuildFile; fileRef = CC4C059C1C3F95C0009D4BF4 /* 11.png */; };
+		CC4C05B11C3F95C0009D4BF4 /* 12.png in Resources */ = {isa = PBXBuildFile; fileRef = CC4C059D1C3F95C0009D4BF4 /* 12.png */; };
+		CC4C05B21C3F95C0009D4BF4 /* 13.png in Resources */ = {isa = PBXBuildFile; fileRef = CC4C059E1C3F95C0009D4BF4 /* 13.png */; };
+		CC4C05B31C3F95C0009D4BF4 /* 14.png in Resources */ = {isa = PBXBuildFile; fileRef = CC4C059F1C3F95C0009D4BF4 /* 14.png */; };
+		CC4C05B41C3F95C0009D4BF4 /* 15.png in Resources */ = {isa = PBXBuildFile; fileRef = CC4C05A01C3F95C0009D4BF4 /* 15.png */; };
+		CC4C05B51C3F95C0009D4BF4 /* 16.png in Resources */ = {isa = PBXBuildFile; fileRef = CC4C05A11C3F95C0009D4BF4 /* 16.png */; };
+		CC4C05B61C3F95C0009D4BF4 /* 17.png in Resources */ = {isa = PBXBuildFile; fileRef = CC4C05A21C3F95C0009D4BF4 /* 17.png */; };
+		CC4C05B71C3F95C0009D4BF4 /* 18.png in Resources */ = {isa = PBXBuildFile; fileRef = CC4C05A31C3F95C0009D4BF4 /* 18.png */; };
+		CC4C05B81C3F95C0009D4BF4 /* 19.png in Resources */ = {isa = PBXBuildFile; fileRef = CC4C05A41C3F95C0009D4BF4 /* 19.png */; };
+		CC4C05E31C3FA493009D4BF4 /* DecorationLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4C05E11C3FA493009D4BF4 /* DecorationLineView.swift */; };
+		CC4C05E41C3FA493009D4BF4 /* SDETimelineLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4C05E21C3FA493009D4BF4 /* SDETimelineLayout.swift */; };
+		CC4C05F61C3FA89C009D4BF4 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC4C05F41C3FA89C009D4BF4 /* Realm.framework */; };
+		CC4C05F71C3FA89D009D4BF4 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CC4C05F41C3FA89C009D4BF4 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CC4C05F81C3FA89D009D4BF4 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC4C05F51C3FA89C009D4BF4 /* RealmSwift.framework */; };
+		CC4C05F91C3FA89D009D4BF4 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CC4C05F51C3FA89C009D4BF4 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CC4C05FD1C3FBCFC009D4BF4 /* studioRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4C05FC1C3FBCFC009D4BF4 /* studioRegistrationViewController.swift */; };
+		CC7E10E11C370BD700717181 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7E10E01C370BD700717181 /* LoginViewController.swift */; };
+		CC7E10E31C37CA0900717181 /* registrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7E10E21C37CA0900717181 /* registrationViewController.swift */; };
+		CC7E10F21C38E2EF00717181 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7E10EC1C38E2EF00717181 /* Keychain.swift */; };
+		CC7E10F31C38E2EF00717181 /* ArchiveKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7E10ED1C38E2EF00717181 /* ArchiveKey.swift */; };
+		CC7E10F41C38E2EF00717181 /* GenericKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7E10EE1C38E2EF00717181 /* GenericKey.swift */; };
+		CC7E10F51C38E2EF00717181 /* KeychainItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7E10EF1C38E2EF00717181 /* KeychainItem.swift */; };
+		CC7E10F61C38E2EF00717181 /* KeychainQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7E10F01C38E2EF00717181 /* KeychainQuery.swift */; };
+		CC7E10F71C38E2EF00717181 /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7E10F11C38E2EF00717181 /* KeychainService.swift */; };
+		CC7E11101C38FFCE00717181 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC7E11031C38FFBC00717181 /* Alamofire.framework */; };
+		CC7E11111C38FFCE00717181 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CC7E11031C38FFBC00717181 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CC7E111C1C397F2600717181 /* SCLAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7E111B1C397F2600717181 /* SCLAlertView.swift */; };
+		CC7E11971C3A6A2E00717181 /* FSCalendar+IBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7E11801C3A6A2D00717181 /* FSCalendar+IBExtension.m */; };
+		CC7E11981C3A6A2E00717181 /* FSCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7E11821C3A6A2D00717181 /* FSCalendar.m */; };
+		CC7E11991C3A6A2E00717181 /* FSCalendarAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7E11841C3A6A2D00717181 /* FSCalendarAppearance.m */; };
+		CC7E119A1C3A6A2E00717181 /* FSCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7E11861C3A6A2D00717181 /* FSCalendarCell.m */; };
+		CC7E119B1C3A6A2E00717181 /* FSCalendarCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7E11881C3A6A2D00717181 /* FSCalendarCollectionView.m */; };
+		CC7E119C1C3A6A2E00717181 /* FSCalendarConstance.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7E118A1C3A6A2D00717181 /* FSCalendarConstance.m */; };
+		CC7E119D1C3A6A2E00717181 /* FSCalendarHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7E118D1C3A6A2D00717181 /* FSCalendarHeader.m */; };
+		CC7E119E1C3A6A2E00717181 /* FSCalendarStickyHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7E118F1C3A6A2D00717181 /* FSCalendarStickyHeader.m */; };
+		CC7E119F1C3A6A2E00717181 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC7E11901C3A6A2D00717181 /* Info.plist */; };
+		CC7E11A01C3A6A2E00717181 /* NSDate+FSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7E11921C3A6A2D00717181 /* NSDate+FSExtension.m */; };
+		CC7E11A11C3A6A2E00717181 /* NSString+FSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7E11941C3A6A2D00717181 /* NSString+FSExtension.m */; };
+		CC7E11A21C3A6A2E00717181 /* UIView+FSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7E11961C3A6A2D00717181 /* UIView+FSExtension.m */; };
+		CCDCCAE11C4271EE00B7544A /* UICollectionView_customMenuCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDCCAE01C4271EE00B7544A /* UICollectionView_customMenuCommands.swift */; };
+		CEBBA10419CB999E00DC5E9C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBBA10319CB999E00DC5E9C /* Model.swift */; };
+		CEBBA10719CEFEBF00DC5E9C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBBA10619CEFEBF00DC5E9C /* DetailViewController.swift */; };
+		CEBBA11019D15D5200DC5E9C /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBBA10F19D15D5200DC5E9C /* Common.swift */; };
+		CEE078A819C81EF000E4A01A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE078A719C81EF000E4A01A /* AppDelegate.swift */; };
+		CEE078AD19C81EF000E4A01A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE078AB19C81EF000E4A01A /* Main.storyboard */; };
+		CEE078AF19C81EF000E4A01A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE078AE19C81EF000E4A01A /* Images.xcassets */; };
+		CEE078B219C81EF000E4A01A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEE078B019C81EF000E4A01A /* LaunchScreen.xib */; };
+		CEE078BE19C81EF000E4A01A /* TodoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE078BD19C81EF000E4A01A /* TodoTests.swift */; };
+		CEE078CA19C81FDE00E4A01A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE078C919C81FDE00E4A01A /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC7E11021C38FFBC00717181 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC7E10F81C38FFBB00717181 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		CC7E11041C38FFBC00717181 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC7E10F81C38FFBB00717181 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS Tests";
+		};
+		CC7E11061C38FFBC00717181 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC7E10F81C38FFBB00717181 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4DD67C0B1A5C55C900ED2280;
+			remoteInfo = "Alamofire OSX";
+		};
+		CC7E11081C38FFBC00717181 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC7E10F81C38FFBB00717181 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F829C6B21A7A94F100A2CD59;
+			remoteInfo = "Alamofire OSX Tests";
+		};
+		CC7E110A1C38FFBC00717181 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC7E10F81C38FFBB00717181 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626EF1BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS";
+		};
+		CC7E110C1C38FFBC00717181 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC7E10F81C38FFBB00717181 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626F81BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS Tests";
+		};
+		CC7E110E1C38FFBC00717181 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC7E10F81C38FFBB00717181 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4202FE01B667AA100C997FB;
+			remoteInfo = "Alamofire watchOS";
+		};
+		CC7E11121C38FFCE00717181 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC7E10F81C38FFBB00717181 /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		CEE078B819C81EF000E4A01A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEE0789A19C81EF000E4A01A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEE078A119C81EF000E4A01A;
+			remoteInfo = Todo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CC7E11141C38FFCE00717181 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CC4C05F71C3FA89D009D4BF4 /* Realm.framework in Embed Frameworks */,
+				CC7E11111C38FFCE00717181 /* Alamofire.framework in Embed Frameworks */,
+				CC4C05F91C3FA89D009D4BF4 /* RealmSwift.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CC4C05891C3F876C009D4BF4 /* mainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainViewController.swift; sourceTree = "<group>"; };
+		CC4C05911C3F95C0009D4BF4 /* 00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 00.png; sourceTree = "<group>"; };
+		CC4C05921C3F95C0009D4BF4 /* 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01.png; sourceTree = "<group>"; };
+		CC4C05931C3F95C0009D4BF4 /* 02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02.png; sourceTree = "<group>"; };
+		CC4C05941C3F95C0009D4BF4 /* 03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 03.png; sourceTree = "<group>"; };
+		CC4C05951C3F95C0009D4BF4 /* 04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 04.png; sourceTree = "<group>"; };
+		CC4C05961C3F95C0009D4BF4 /* 05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 05.png; sourceTree = "<group>"; };
+		CC4C05971C3F95C0009D4BF4 /* 06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 06.png; sourceTree = "<group>"; };
+		CC4C05981C3F95C0009D4BF4 /* 07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 07.png; sourceTree = "<group>"; };
+		CC4C05991C3F95C0009D4BF4 /* 08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 08.png; sourceTree = "<group>"; };
+		CC4C059A1C3F95C0009D4BF4 /* 09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 09.png; sourceTree = "<group>"; };
+		CC4C059B1C3F95C0009D4BF4 /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10.png; sourceTree = "<group>"; };
+		CC4C059C1C3F95C0009D4BF4 /* 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11.png; sourceTree = "<group>"; };
+		CC4C059D1C3F95C0009D4BF4 /* 12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12.png; sourceTree = "<group>"; };
+		CC4C059E1C3F95C0009D4BF4 /* 13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 13.png; sourceTree = "<group>"; };
+		CC4C059F1C3F95C0009D4BF4 /* 14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 14.png; sourceTree = "<group>"; };
+		CC4C05A01C3F95C0009D4BF4 /* 15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 15.png; sourceTree = "<group>"; };
+		CC4C05A11C3F95C0009D4BF4 /* 16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 16.png; sourceTree = "<group>"; };
+		CC4C05A21C3F95C0009D4BF4 /* 17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 17.png; sourceTree = "<group>"; };
+		CC4C05A31C3F95C0009D4BF4 /* 18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 18.png; sourceTree = "<group>"; };
+		CC4C05A41C3F95C0009D4BF4 /* 19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 19.png; sourceTree = "<group>"; };
+		CC4C05E11C3FA493009D4BF4 /* DecorationLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecorationLineView.swift; sourceTree = "<group>"; };
+		CC4C05E21C3FA493009D4BF4 /* SDETimelineLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDETimelineLayout.swift; sourceTree = "<group>"; };
+		CC4C05F41C3FA89C009D4BF4 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = ../Realm.framework; sourceTree = "<group>"; };
+		CC4C05F51C3FA89C009D4BF4 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = ../RealmSwift.framework; sourceTree = "<group>"; };
+		CC4C05FC1C3FBCFC009D4BF4 /* studioRegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = studioRegistrationViewController.swift; sourceTree = "<group>"; };
+		CC7E10E01C370BD700717181 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CC7E10E21C37CA0900717181 /* registrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = registrationViewController.swift; sourceTree = "<group>"; };
+		CC7E10E71C38DFDF00717181 /* Lashmaker-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lashmaker-Bridging-Header.h"; sourceTree = "<group>"; };
+		CC7E10EC1C38E2EF00717181 /* Keychain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
+		CC7E10ED1C38E2EF00717181 /* ArchiveKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArchiveKey.swift; sourceTree = "<group>"; };
+		CC7E10EE1C38E2EF00717181 /* GenericKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericKey.swift; sourceTree = "<group>"; };
+		CC7E10EF1C38E2EF00717181 /* KeychainItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainItem.swift; sourceTree = "<group>"; };
+		CC7E10F01C38E2EF00717181 /* KeychainQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainQuery.swift; sourceTree = "<group>"; };
+		CC7E10F11C38E2EF00717181 /* KeychainService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
+		CC7E10F81C38FFBB00717181 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Todo/Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
+		CC7E111B1C397F2600717181 /* SCLAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCLAlertView.swift; sourceTree = "<group>"; };
+		CC7E117F1C3A6A2D00717181 /* FSCalendar+IBExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FSCalendar+IBExtension.h"; sourceTree = "<group>"; };
+		CC7E11801C3A6A2D00717181 /* FSCalendar+IBExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FSCalendar+IBExtension.m"; sourceTree = "<group>"; };
+		CC7E11811C3A6A2D00717181 /* FSCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendar.h; sourceTree = "<group>"; };
+		CC7E11821C3A6A2D00717181 /* FSCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendar.m; sourceTree = "<group>"; };
+		CC7E11831C3A6A2D00717181 /* FSCalendarAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarAppearance.h; sourceTree = "<group>"; };
+		CC7E11841C3A6A2D00717181 /* FSCalendarAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarAppearance.m; sourceTree = "<group>"; };
+		CC7E11851C3A6A2D00717181 /* FSCalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarCell.h; sourceTree = "<group>"; };
+		CC7E11861C3A6A2D00717181 /* FSCalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarCell.m; sourceTree = "<group>"; };
+		CC7E11871C3A6A2D00717181 /* FSCalendarCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarCollectionView.h; sourceTree = "<group>"; };
+		CC7E11881C3A6A2D00717181 /* FSCalendarCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarCollectionView.m; sourceTree = "<group>"; };
+		CC7E11891C3A6A2D00717181 /* FSCalendarConstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarConstance.h; sourceTree = "<group>"; };
+		CC7E118A1C3A6A2D00717181 /* FSCalendarConstance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarConstance.m; sourceTree = "<group>"; };
+		CC7E118B1C3A6A2D00717181 /* FSCalendarDynamicHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarDynamicHeader.h; sourceTree = "<group>"; };
+		CC7E118C1C3A6A2D00717181 /* FSCalendarHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarHeader.h; sourceTree = "<group>"; };
+		CC7E118D1C3A6A2D00717181 /* FSCalendarHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarHeader.m; sourceTree = "<group>"; };
+		CC7E118E1C3A6A2D00717181 /* FSCalendarStickyHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarStickyHeader.h; sourceTree = "<group>"; };
+		CC7E118F1C3A6A2D00717181 /* FSCalendarStickyHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarStickyHeader.m; sourceTree = "<group>"; };
+		CC7E11901C3A6A2D00717181 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC7E11911C3A6A2D00717181 /* NSDate+FSExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+FSExtension.h"; sourceTree = "<group>"; };
+		CC7E11921C3A6A2D00717181 /* NSDate+FSExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+FSExtension.m"; sourceTree = "<group>"; };
+		CC7E11931C3A6A2D00717181 /* NSString+FSExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FSExtension.h"; sourceTree = "<group>"; };
+		CC7E11941C3A6A2D00717181 /* NSString+FSExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FSExtension.m"; sourceTree = "<group>"; };
+		CC7E11951C3A6A2D00717181 /* UIView+FSExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FSExtension.h"; sourceTree = "<group>"; };
+		CC7E11961C3A6A2D00717181 /* UIView+FSExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FSExtension.m"; sourceTree = "<group>"; };
+		CCDCCAE01C4271EE00B7544A /* UICollectionView_customMenuCommands.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionView_customMenuCommands.swift; sourceTree = "<group>"; };
+		CEBBA10319CB999E00DC5E9C /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		CEBBA10519CEF3F000DC5E9C /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		CEBBA10619CEFEBF00DC5E9C /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		CEBBA10F19D15D5200DC5E9C /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		CEE078A219C81EF000E4A01A /* Lashmaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lashmaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE078A619C81EF000E4A01A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEE078A719C81EF000E4A01A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEE078AC19C81EF000E4A01A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEE078AE19C81EF000E4A01A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CEE078B119C81EF000E4A01A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CEE078B719C81EF000E4A01A /* Lashmaker.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lashmaker.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE078BC19C81EF000E4A01A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEE078BD19C81EF000E4A01A /* TodoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoTests.swift; sourceTree = "<group>"; };
+		CEE078C919C81FDE00E4A01A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEE0789F19C81EF000E4A01A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC4C05F61C3FA89C009D4BF4 /* Realm.framework in Frameworks */,
+				CC7E11101C38FFCE00717181 /* Alamofire.framework in Frameworks */,
+				CC4C05F81C3FA89D009D4BF4 /* RealmSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE078B419C81EF000E4A01A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC4C05B91C3F95C5009D4BF4 /* Masters */ = {
+			isa = PBXGroup;
+			children = (
+				CC4C05911C3F95C0009D4BF4 /* 00.png */,
+				CC4C05921C3F95C0009D4BF4 /* 01.png */,
+				CC4C05931C3F95C0009D4BF4 /* 02.png */,
+				CC4C05941C3F95C0009D4BF4 /* 03.png */,
+				CC4C05951C3F95C0009D4BF4 /* 04.png */,
+				CC4C05961C3F95C0009D4BF4 /* 05.png */,
+				CC4C05971C3F95C0009D4BF4 /* 06.png */,
+				CC4C05981C3F95C0009D4BF4 /* 07.png */,
+				CC4C05991C3F95C0009D4BF4 /* 08.png */,
+				CC4C059A1C3F95C0009D4BF4 /* 09.png */,
+				CC4C059B1C3F95C0009D4BF4 /* 10.png */,
+				CC4C059C1C3F95C0009D4BF4 /* 11.png */,
+				CC4C059D1C3F95C0009D4BF4 /* 12.png */,
+				CC4C059E1C3F95C0009D4BF4 /* 13.png */,
+				CC4C059F1C3F95C0009D4BF4 /* 14.png */,
+				CC4C05A01C3F95C0009D4BF4 /* 15.png */,
+				CC4C05A11C3F95C0009D4BF4 /* 16.png */,
+				CC4C05A21C3F95C0009D4BF4 /* 17.png */,
+				CC4C05A31C3F95C0009D4BF4 /* 18.png */,
+				CC4C05A41C3F95C0009D4BF4 /* 19.png */,
+			);
+			name = Masters;
+			sourceTree = "<group>";
+		};
+		CC4C05EC1C3FA543009D4BF4 /* TimeLine */ = {
+			isa = PBXGroup;
+			children = (
+				CC4C05E11C3FA493009D4BF4 /* DecorationLineView.swift */,
+				CC4C05E21C3FA493009D4BF4 /* SDETimelineLayout.swift */,
+				CCDCCAE01C4271EE00B7544A /* UICollectionView_customMenuCommands.swift */,
+			);
+			name = TimeLine;
+			sourceTree = "<group>";
+		};
+		CC4C05F31C3FA554009D4BF4 /* AlertView */ = {
+			isa = PBXGroup;
+			children = (
+				CC7E111B1C397F2600717181 /* SCLAlertView.swift */,
+			);
+			name = AlertView;
+			sourceTree = "<group>";
+		};
+		CC4C05FB1C3FAA05009D4BF4 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				CC4C05F41C3FA89C009D4BF4 /* Realm.framework */,
+				CC4C05F51C3FA89C009D4BF4 /* RealmSwift.framework */,
+			);
+			name = Realm;
+			sourceTree = "<group>";
+		};
+		CC7E10E61C38DFC500717181 /* KeyChainAPI */ = {
+			isa = PBXGroup;
+			children = (
+				CC7E10EC1C38E2EF00717181 /* Keychain.swift */,
+				CC7E10ED1C38E2EF00717181 /* ArchiveKey.swift */,
+				CC7E10EE1C38E2EF00717181 /* GenericKey.swift */,
+				CC7E10EF1C38E2EF00717181 /* KeychainItem.swift */,
+				CC7E10F01C38E2EF00717181 /* KeychainQuery.swift */,
+				CC7E10F11C38E2EF00717181 /* KeychainService.swift */,
+			);
+			name = KeyChainAPI;
+			sourceTree = "<group>";
+		};
+		CC7E10EB1C38E28400717181 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CC4C05891C3F876C009D4BF4 /* mainViewController.swift */,
+				CEE078C919C81FDE00E4A01A /* ViewController.swift */,
+				CEBBA10619CEFEBF00DC5E9C /* DetailViewController.swift */,
+				CC4C05FC1C3FBCFC009D4BF4 /* studioRegistrationViewController.swift */,
+				CC7E10E21C37CA0900717181 /* registrationViewController.swift */,
+				CC7E10E01C370BD700717181 /* LoginViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		CC7E10F91C38FFBB00717181 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC7E11031C38FFBC00717181 /* Alamofire.framework */,
+				CC7E11051C38FFBC00717181 /* Alamofire iOS Tests.xctest */,
+				CC7E11071C38FFBC00717181 /* Alamofire.framework */,
+				CC7E11091C38FFBC00717181 /* Alamofire OSX Tests.xctest */,
+				CC7E110B1C38FFBC00717181 /* Alamofire.framework */,
+				CC7E110D1C38FFBC00717181 /* Alamofire tvOS Tests.xctest */,
+				CC7E110F1C38FFBC00717181 /* Alamofire.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC7E111A1C397F1300717181 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CC4C05F31C3FA554009D4BF4 /* AlertView */,
+				CC4C05EC1C3FA543009D4BF4 /* TimeLine */,
+				CC7E117E1C3A6A2D00717181 /* FSCalendar */,
+				CC7E10E61C38DFC500717181 /* KeyChainAPI */,
+				CEBBA10F19D15D5200DC5E9C /* Common.swift */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		CC7E117E1C3A6A2D00717181 /* FSCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				CC7E117F1C3A6A2D00717181 /* FSCalendar+IBExtension.h */,
+				CC7E11801C3A6A2D00717181 /* FSCalendar+IBExtension.m */,
+				CC7E11811C3A6A2D00717181 /* FSCalendar.h */,
+				CC7E11821C3A6A2D00717181 /* FSCalendar.m */,
+				CC7E11831C3A6A2D00717181 /* FSCalendarAppearance.h */,
+				CC7E11841C3A6A2D00717181 /* FSCalendarAppearance.m */,
+				CC7E11851C3A6A2D00717181 /* FSCalendarCell.h */,
+				CC7E11861C3A6A2D00717181 /* FSCalendarCell.m */,
+				CC7E11871C3A6A2D00717181 /* FSCalendarCollectionView.h */,
+				CC7E11881C3A6A2D00717181 /* FSCalendarCollectionView.m */,
+				CC7E11891C3A6A2D00717181 /* FSCalendarConstance.h */,
+				CC7E118A1C3A6A2D00717181 /* FSCalendarConstance.m */,
+				CC7E118B1C3A6A2D00717181 /* FSCalendarDynamicHeader.h */,
+				CC7E118C1C3A6A2D00717181 /* FSCalendarHeader.h */,
+				CC7E118D1C3A6A2D00717181 /* FSCalendarHeader.m */,
+				CC7E118E1C3A6A2D00717181 /* FSCalendarStickyHeader.h */,
+				CC7E118F1C3A6A2D00717181 /* FSCalendarStickyHeader.m */,
+				CC7E11901C3A6A2D00717181 /* Info.plist */,
+				CC7E11911C3A6A2D00717181 /* NSDate+FSExtension.h */,
+				CC7E11921C3A6A2D00717181 /* NSDate+FSExtension.m */,
+				CC7E11931C3A6A2D00717181 /* NSString+FSExtension.h */,
+				CC7E11941C3A6A2D00717181 /* NSString+FSExtension.m */,
+				CC7E11951C3A6A2D00717181 /* UIView+FSExtension.h */,
+				CC7E11961C3A6A2D00717181 /* UIView+FSExtension.m */,
+			);
+			path = FSCalendar;
+			sourceTree = "<group>";
+		};
+		CEE0789919C81EF000E4A01A = {
+			isa = PBXGroup;
+			children = (
+				CEE078A419C81EF000E4A01A /* Modules */,
+				CEE078BA19C81EF000E4A01A /* TodoTests */,
+				CEE078A319C81EF000E4A01A /* Products */,
+				CC7E10F81C38FFBB00717181 /* Alamofire.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		CEE078A319C81EF000E4A01A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEE078A219C81EF000E4A01A /* Lashmaker.app */,
+				CEE078B719C81EF000E4A01A /* Lashmaker.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEE078A419C81EF000E4A01A /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				CC4C05FB1C3FAA05009D4BF4 /* Realm */,
+				CEE078A719C81EF000E4A01A /* AppDelegate.swift */,
+				CC4C05B91C3F95C5009D4BF4 /* Masters */,
+				CC7E111A1C397F1300717181 /* Components */,
+				CC7E10EB1C38E28400717181 /* Controllers */,
+				CEBBA10319CB999E00DC5E9C /* Model.swift */,
+				CC7E10E71C38DFDF00717181 /* Lashmaker-Bridging-Header.h */,
+				CEE078AB19C81EF000E4A01A /* Main.storyboard */,
+				CEE078AE19C81EF000E4A01A /* Images.xcassets */,
+				CEE078B019C81EF000E4A01A /* LaunchScreen.xib */,
+				CEE078A519C81EF000E4A01A /* Supporting Files */,
+				CEBBA10519CEF3F000DC5E9C /* MyPlayground.playground */,
+			);
+			name = Modules;
+			path = Todo;
+			sourceTree = "<group>";
+		};
+		CEE078A519C81EF000E4A01A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEE078A619C81EF000E4A01A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEE078BA19C81EF000E4A01A /* TodoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEE078BD19C81EF000E4A01A /* TodoTests.swift */,
+				CEE078BB19C81EF000E4A01A /* Supporting Files */,
+			);
+			path = TodoTests;
+			sourceTree = "<group>";
+		};
+		CEE078BB19C81EF000E4A01A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEE078BC19C81EF000E4A01A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEE078A119C81EF000E4A01A /* Lashmaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE078C119C81EF000E4A01A /* Build configuration list for PBXNativeTarget "Lashmaker" */;
+			buildPhases = (
+				CEE0789E19C81EF000E4A01A /* Sources */,
+				CEE0789F19C81EF000E4A01A /* Frameworks */,
+				CEE078A019C81EF000E4A01A /* Resources */,
+				CC7E11141C38FFCE00717181 /* Embed Frameworks */,
+				CC4C05FA1C3FA8DE009D4BF4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC7E11131C38FFCE00717181 /* PBXTargetDependency */,
+			);
+			name = Lashmaker;
+			productName = Todo;
+			productReference = CEE078A219C81EF000E4A01A /* Lashmaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEE078B619C81EF000E4A01A /* LashmakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE078C419C81EF000E4A01A /* Build configuration list for PBXNativeTarget "LashmakerTests" */;
+			buildPhases = (
+				CEE078B319C81EF000E4A01A /* Sources */,
+				CEE078B419C81EF000E4A01A /* Frameworks */,
+				CEE078B519C81EF000E4A01A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEE078B919C81EF000E4A01A /* PBXTargetDependency */,
+			);
+			name = LashmakerTests;
+			productName = TodoTests;
+			productReference = CEE078B719C81EF000E4A01A /* Lashmaker.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEE0789A19C81EF000E4A01A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = LashMakers.pro;
+				TargetAttributes = {
+					CEE078A119C81EF000E4A01A = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = R8A654N8BA;
+					};
+					CEE078B619C81EF000E4A01A = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = CEE078A119C81EF000E4A01A;
+					};
+				};
+			};
+			buildConfigurationList = CEE0789D19C81EF000E4A01A /* Build configuration list for PBXProject "Lashmaker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEE0789919C81EF000E4A01A;
+			productRefGroup = CEE078A319C81EF000E4A01A /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CC7E10F91C38FFBB00717181 /* Products */;
+					ProjectRef = CC7E10F81C38FFBB00717181 /* Alamofire.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				CEE078A119C81EF000E4A01A /* Lashmaker */,
+				CEE078B619C81EF000E4A01A /* LashmakerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		CC7E11031C38FFBC00717181 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = CC7E11021C38FFBC00717181 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CC7E11051C38FFBC00717181 /* Alamofire iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire iOS Tests.xctest";
+			remoteRef = CC7E11041C38FFBC00717181 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CC7E11071C38FFBC00717181 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = CC7E11061C38FFBC00717181 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CC7E11091C38FFBC00717181 /* Alamofire OSX Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire OSX Tests.xctest";
+			remoteRef = CC7E11081C38FFBC00717181 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CC7E110B1C38FFBC00717181 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = CC7E110A1C38FFBC00717181 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CC7E110D1C38FFBC00717181 /* Alamofire tvOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire tvOS Tests.xctest";
+			remoteRef = CC7E110C1C38FFBC00717181 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CC7E110F1C38FFBC00717181 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = CC7E110E1C38FFBC00717181 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEE078A019C81EF000E4A01A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC4C05B31C3F95C0009D4BF4 /* 14.png in Resources */,
+				CC4C05AD1C3F95C0009D4BF4 /* 08.png in Resources */,
+				CC4C05AC1C3F95C0009D4BF4 /* 07.png in Resources */,
+				CC4C05AA1C3F95C0009D4BF4 /* 05.png in Resources */,
+				CC4C05A61C3F95C0009D4BF4 /* 01.png in Resources */,
+				CC4C05A51C3F95C0009D4BF4 /* 00.png in Resources */,
+				CC4C05AF1C3F95C0009D4BF4 /* 10.png in Resources */,
+				CC7E119F1C3A6A2E00717181 /* Info.plist in Resources */,
+				CC4C05A71C3F95C0009D4BF4 /* 02.png in Resources */,
+				CC4C05A81C3F95C0009D4BF4 /* 03.png in Resources */,
+				CEE078AD19C81EF000E4A01A /* Main.storyboard in Resources */,
+				CC4C05B81C3F95C0009D4BF4 /* 19.png in Resources */,
+				CC4C05B51C3F95C0009D4BF4 /* 16.png in Resources */,
+				CC4C05B11C3F95C0009D4BF4 /* 12.png in Resources */,
+				CC4C05B21C3F95C0009D4BF4 /* 13.png in Resources */,
+				CC4C05A91C3F95C0009D4BF4 /* 04.png in Resources */,
+				CC4C05B61C3F95C0009D4BF4 /* 17.png in Resources */,
+				CC4C05B71C3F95C0009D4BF4 /* 18.png in Resources */,
+				CC4C05B01C3F95C0009D4BF4 /* 11.png in Resources */,
+				CC4C05B41C3F95C0009D4BF4 /* 15.png in Resources */,
+				CC4C05AE1C3F95C0009D4BF4 /* 09.png in Resources */,
+				CC4C05AB1C3F95C0009D4BF4 /* 06.png in Resources */,
+				CEE078B219C81EF000E4A01A /* LaunchScreen.xib in Resources */,
+				CEE078AF19C81EF000E4A01A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE078B519C81EF000E4A01A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CC4C05FA1C3FA8DE009D4BF4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash ${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework/strip-frameworks.sh";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEE0789E19C81EF000E4A01A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC7E10F61C38E2EF00717181 /* KeychainQuery.swift in Sources */,
+				CC7E10E11C370BD700717181 /* LoginViewController.swift in Sources */,
+				CEBBA10419CB999E00DC5E9C /* Model.swift in Sources */,
+				CC4C05E41C3FA493009D4BF4 /* SDETimelineLayout.swift in Sources */,
+				CCDCCAE11C4271EE00B7544A /* UICollectionView_customMenuCommands.swift in Sources */,
+				CC7E11A21C3A6A2E00717181 /* UIView+FSExtension.m in Sources */,
+				CC7E10E31C37CA0900717181 /* registrationViewController.swift in Sources */,
+				CC7E119E1C3A6A2E00717181 /* FSCalendarStickyHeader.m in Sources */,
+				CC7E10F41C38E2EF00717181 /* GenericKey.swift in Sources */,
+				CC7E119C1C3A6A2E00717181 /* FSCalendarConstance.m in Sources */,
+				CEE078CA19C81FDE00E4A01A /* ViewController.swift in Sources */,
+				CC7E119A1C3A6A2E00717181 /* FSCalendarCell.m in Sources */,
+				CC7E119B1C3A6A2E00717181 /* FSCalendarCollectionView.m in Sources */,
+				CC7E11A11C3A6A2E00717181 /* NSString+FSExtension.m in Sources */,
+				CC7E11971C3A6A2E00717181 /* FSCalendar+IBExtension.m in Sources */,
+				CC7E10F51C38E2EF00717181 /* KeychainItem.swift in Sources */,
+				CC7E111C1C397F2600717181 /* SCLAlertView.swift in Sources */,
+				CC7E10F71C38E2EF00717181 /* KeychainService.swift in Sources */,
+				CC7E11A01C3A6A2E00717181 /* NSDate+FSExtension.m in Sources */,
+				CC7E11981C3A6A2E00717181 /* FSCalendar.m in Sources */,
+				CC4C05FD1C3FBCFC009D4BF4 /* studioRegistrationViewController.swift in Sources */,
+				CEE078A819C81EF000E4A01A /* AppDelegate.swift in Sources */,
+				CC4C058A1C3F876C009D4BF4 /* mainViewController.swift in Sources */,
+				CC7E11991C3A6A2E00717181 /* FSCalendarAppearance.m in Sources */,
+				CC7E10F31C38E2EF00717181 /* ArchiveKey.swift in Sources */,
+				CC4C05E31C3FA493009D4BF4 /* DecorationLineView.swift in Sources */,
+				CC7E10F21C38E2EF00717181 /* Keychain.swift in Sources */,
+				CEBBA11019D15D5200DC5E9C /* Common.swift in Sources */,
+				CC7E119D1C3A6A2E00717181 /* FSCalendarHeader.m in Sources */,
+				CEBBA10719CEFEBF00DC5E9C /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE078B319C81EF000E4A01A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE078BE19C81EF000E4A01A /* TodoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC7E11131C38FFCE00717181 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire iOS";
+			targetProxy = CC7E11121C38FFCE00717181 /* PBXContainerItemProxy */;
+		};
+		CEE078B919C81EF000E4A01A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEE078A119C81EF000E4A01A /* Lashmaker */;
+			targetProxy = CEE078B819C81EF000E4A01A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEE078AB19C81EF000E4A01A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE078AC19C81EF000E4A01A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEE078B019C81EF000E4A01A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE078B119C81EF000E4A01A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEE078BF19C81EF000E4A01A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Alexander Malakhov (8DKSFX34Z4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Alexander Malakhov (8DKSFX34Z4)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "df179847-1a2a-4d9c-9f6c-0f1fdb788568";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEE078C019C81EF000E4A01A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Alexander Malakhov (8DKSFX34Z4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Alexander Malakhov (8DKSFX34Z4)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "df179847-1a2a-4d9c-9f6c-0f1fdb788568";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEE078C219C81EF000E4A01A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Alexander Malakhov (8DKSFX34Z4)";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Todo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.malakhov.LashmakersCommunity;
+				PRODUCT_NAME = Lashmaker;
+				PROVISIONING_PROFILE = "df179847-1a2a-4d9c-9f6c-0f1fdb788568";
+				SWIFT_OBJC_BRIDGING_HEADER = "Todo/Lashmaker-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEE078C319C81EF000E4A01A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Alexander Malakhov (8DKSFX34Z4)";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Todo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.malakhov.LashmakersCommunity;
+				PRODUCT_NAME = Lashmaker;
+				PROVISIONING_PROFILE = "df179847-1a2a-4d9c-9f6c-0f1fdb788568";
+				SWIFT_OBJC_BRIDGING_HEADER = "Todo/Lashmaker-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		CEE078C519C81EF000E4A01A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TodoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rushjet.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = Lashmaker;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lashmaker.app/Lashmaker";
+			};
+			name = Debug;
+		};
+		CEE078C619C81EF000E4A01A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TodoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rushjet.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = Lashmaker;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lashmaker.app/Lashmaker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEE0789D19C81EF000E4A01A /* Build configuration list for PBXProject "Lashmaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE078BF19C81EF000E4A01A /* Debug */,
+				CEE078C019C81EF000E4A01A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE078C119C81EF000E4A01A /* Build configuration list for PBXNativeTarget "Lashmaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE078C219C81EF000E4A01A /* Debug */,
+				CEE078C319C81EF000E4A01A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE078C419C81EF000E4A01A /* Build configuration list for PBXNativeTarget "LashmakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE078C519C81EF000E4A01A /* Debug */,
+				CEE078C619C81EF000E4A01A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEE0789A19C81EF000E4A01A /* Project object */;
+}
